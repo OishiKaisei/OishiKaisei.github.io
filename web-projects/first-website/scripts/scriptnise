@@ -1,0 +1,39 @@
+const myHeading = document.querySelector("h1");
+
+myHeading.textContent = "Hello world!";
+
+/*
+挟まれているすべてがコメントです。
+*/
+// これはコメントです
+let element = document.querySelector("h1");
+let = document.querySelector("h1");
+    a=11
+let iceCream = "a";
+
+//if (iceCream === "チョコレート") {
+///alert("やった！チョコレートアイス大好き！");
+//} else {
+// alert("あれれ、でもチョコレートが好きなのに......");
+//}
+//alert("hello!"+a);
+document.querySelector("html").addEventListener("click", function () {
+    alert("痛っ! つつかないで!");
+  });
+  document.querySelector("html").addEventListener("click", () => {
+    alert("痛っ! つつかないで!");
+  });
+  
+  
+function multiply(num1, num2) {
+    let result = num1 * num2;
+    return result;
+  }
+  let r
+r=multiply(4, 7);
+alert(r)
+i=multiply(20, 20);
+alert(i)
+d=multiply(0.5, 3);
+alert(d)
+alert("こんばんわ")
