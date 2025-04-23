@@ -1,0 +1,30 @@
+html {
+  font-size: 10px; 
+  text-align: center;
+}
+html {
+  background-color: #ffffff;
+}
+#ue-id {font-family:
+    "Kosugi Maru", sans-serif; 
+    
+}
+#sita-id {font-family:
+  "Kosugi Maru", sans-serif;
+}
+#countup-id {font-family:
+  "Kosugi Maru", sans-serif; 
+   margin: 0 auto;
+   
+}
+#countdown-id {font-family:
+  "Kosugi Maru", sans-serif; 
+  line-height: 20;
+  letter-spacing: 1px;
+}
+
+h1 { 
+  font-size: 60px;
+  text-align: center;
+}
+
