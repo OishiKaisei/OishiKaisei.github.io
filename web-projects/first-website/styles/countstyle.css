@@ -1,30 +1,28 @@
 html {
-  font-size: 10px; 
+  font-size: 15px; 
   text-align: center;
-}
-html {
-  background-color: #ffffff;
-}
-#ue-id {font-family:
-    "Kosugi Maru", sans-serif; 
-    
-}
-#sita-id {font-family:
+  font-family:
   "Kosugi Maru", sans-serif;
-}
-#countup-id {font-family:
-  "Kosugi Maru", sans-serif; 
-   margin: 0 auto;
-   
-}
-#countdown-id {font-family:
-  "Kosugi Maru", sans-serif; 
-  line-height: 20;
-  letter-spacing: 1px;
+  user-select: none;/*選択無効*/
 }
 
-h1 { 
-  font-size: 60px;
-  text-align: center;
+#top-id{
+  font-size: 200px;
+  margin: 80px;
 }
 
+#bottom-id{
+  font-size: 200px;
+  margin: 80px;
+}
+
+
+#black{
+  
+  height: 40px;
+  background-color: #000000;
+   font-size: 40px;
+color: white;
+display: flex;
+justify-content: flex-end; 
+}
