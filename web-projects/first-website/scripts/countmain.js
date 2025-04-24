@@ -11,14 +11,13 @@ html {
   margin: 80px;
 }
 
-#buttom-id{
+#bottom-id{
   font-size: 200px;
   margin: 80px;
 }
 
 
 #black{
-  
   height: 40px;
   background-color: #000000;
    font-size: 40px;
