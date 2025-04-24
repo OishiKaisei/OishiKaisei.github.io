@@ -8,7 +8,7 @@ function count() {
 	const top = document.querySelector("#top-id");
 	const bottom = document.querySelector("#bottom-id");
     //バツボタン
-    const vatu = document.querySelector("#vatubottom");
+    const vatu = document.querySelector("#close-bottom");
 	up.onclick = () => {
 		const topCount = Number(top.textContent);
 		top.textContent = topCount + 1;
@@ -35,4 +35,3 @@ function count() {
 }
 
 count();
-
