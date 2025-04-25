@@ -1,0 +1,11 @@
+html {
+  font-size: 60px; 
+  text-align: center;
+
+  user-select: none;/*選択無効*/
+}
+#number_display{
+  font-size: 200px;
+  background-color: #000000;
+  color:#ffffff
+}
