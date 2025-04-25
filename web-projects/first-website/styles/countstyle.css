@@ -6,12 +6,12 @@ html {
   user-select: none;/*選択無効*/
 }
 
-#top_id{
+#top_number{
   font-size: 200px;
   margin: 80px;
 }
 
-#bottom_id{
+#bottom_number{
   font-size: 200px;
   margin: 80px;
 }
