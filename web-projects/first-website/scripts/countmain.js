@@ -1,36 +1,36 @@
 function count() {
-    //三角形
-	const up = document.querySelector("#countup_id_top");
-	const down = document.querySelector("#countdown_id_top");
-    const upBottom = document.querySelector("#countup_id_bottom");
-    const downBottom = document.querySelector("#countdown_id_bottom");
+    //カウントボタン
+	const topCountUpButton = document.querySelector("#top_count_up");
+	const topCountDownButton = document.querySelector("#top_count_down");
+    const bottomCountUpButton = document.querySelector("#bottom_count_up");
+    const bottomCountDownButton = document.querySelector("#bottom_count_down");
     //数字
-	const top = document.querySelector("#top_id");
-	const bottom = document.querySelector("#bottom_id");
+	const topNumber = document.querySelector("#top_number");
+	const bottomNumber = document.querySelector("#bottom_number");
     //バツボタン
-    const button = document.querySelector("#close_button");
-	up.onclick = () => {
-		const topCount = Number(top.textContent);
-		top.textContent = topCount + 1;
+    const resetButton = document.querySelector("#reset_button");
+	topCountUpButton.onclick = () => {
+		const topCount = Number(topNumber.textContent);
+		topNumber.textContent = topCount + 1;
 	};
 
-	down.onclick = () => {
-		const bottomCount = Number(top.textContent);
-		top.textContent = bottomCount - 1;
+	topCountDownButton.onclick = () => {
+		const topCount = Number(topNumber.textContent);
+		topNumber.textContent = topCount - 1;
 	};
 
-    upBottom.onclick = () => {
-		const topCountButton = Number(bottom.textContent);
-		bottom.textContent = topCountButton + 1;
+    bottomCountUpButton.onclick = () => {
+		const bottomCount = Number(bottomNumber.textContent);
+		bottomNumber.textContent = bottomCount + 1;
 	};
 
-	downBottom.onclick = () => {
-		const bottomCountBottom = Number(bottom.textContent);
-		bottom.textContent = bottomCountBottom - 1;
+	bottomCountDownButton.onclick = () => {
+		const bottomCount = Number(bottomNumber.textContent);
+		bottomNumber.textContent = bottomCount - 1;
 	};
-    button.onclick = () =>{
-        top.textContent = 20;
-        bottom.textContent = 20;
+    resetButton.onclick = () =>{
+        topNumber.textContent = 20;
+        bottomNumber.textContent = 20;
     }
 }
 
